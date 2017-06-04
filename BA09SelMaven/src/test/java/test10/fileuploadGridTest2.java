@@ -59,6 +59,8 @@ public class fileuploadGridTest2 {
 		
 		Select select1 = new Select(oBrowser.findElement(By.id("toExtensionSel")));
 	   select1.selectByVisibleText("pdf");
+	   
+	   System.out.println("successful");
 		
 	//	oBrowser.findElement(By.id("toEmail")).sendKeys("neysaamazon@gmail.co");
 		
